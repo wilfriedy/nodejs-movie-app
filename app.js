@@ -13,11 +13,12 @@ app.get("/search", (req, res) => {
 
 app.get("/results", (req, res) => {
   let query = req.query.search;
-  let API_URL = `https://api.themoviedb.org/3/movie/550?api_key=cc7865530fd3f81090af95c598709e32&query=${query}`;
+  let API_URL = `https://api.themoviedb.org/3/search/movie?api_key=cc7865530fd3f81090af95c598709e32&query=${query}`;
   request(API_URL, (err, resp, body) => {
     if (err) console.log(err);
     let data = JSON.parse(body);
-    resp.render(data);
+    console.log(data);
+    res.render("movies", { data, search: query });
   });
 });
 

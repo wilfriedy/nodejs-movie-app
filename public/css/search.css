@@ -10,3 +10,31 @@
 form input {
   width: 250px;
 }
+
+.displays h2,
+.movies-box {
+  margin-top: 40px;
+}
+
+.movie-card {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.404);
+}
+
+.movie-details {
+  border: 1px solid rgba(151, 151, 151, 0.404);
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.img > .image {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
