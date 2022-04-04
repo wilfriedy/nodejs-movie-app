@@ -57,3 +57,9 @@ form input {
   flex-direction: column;
   background-color: aliceblue;
 }
+
+/* results page */
+
+.main-results {
+  background-color: aliceblue;
+}

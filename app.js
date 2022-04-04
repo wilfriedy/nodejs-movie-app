@@ -17,7 +17,7 @@ app.get("/results", (req, res) => {
   request(API_URL, (err, resp, body) => {
     if (err) console.log(err);
     let data = JSON.parse(body);
-    console.log(data);
+    // console.log(data);
     res.render("movies", { data, search: query });
   });
 });
