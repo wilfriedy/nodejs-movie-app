@@ -38,3 +38,22 @@ form input {
   color: red;
   text-align: center;
 }
+
+/* Search page design */
+.search-body {
+  height: 100%;
+  background-image: url(https://s3-us-west-2.amazonaws.com/prd-rteditorial/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg);
+  /* background-repeat: no-repeat; */
+}
+
+.main-con {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
